@@ -97,9 +97,9 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002155106828'))
-VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002163485331'))
-NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002227736350'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002152874725'))
+VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002155106828'))
+NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002155106828'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002155106828'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
