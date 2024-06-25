@@ -96,10 +96,10 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/hd_movies_and_webseries_channel
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002227729848'))
-VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002227729848'))
-NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002227729848'))
-BIN_CHNL = int(environ.get('BIN_CHNL', '-1002227729848'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002204720453'))
+VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002204720453'))
+NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002204720453'))
+BIN_CHNL = int(environ.get('BIN_CHNL', '-1002204720453'))
 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
